@@ -11,7 +11,7 @@ import java.math.BigInteger;
 @Builder
 @Data
 @Entity
-public class Crypto {
+public class CryptoCurrency {
 
     @Id
     private String ticker;
