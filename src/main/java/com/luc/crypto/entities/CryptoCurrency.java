@@ -1,7 +1,9 @@
 package com.luc.crypto.entities;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -15,9 +17,10 @@ import java.math.BigInteger;
  */
 @Builder
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity
 public class CryptoCurrency {
-
     @Id
     private String ticker;
     private String name;
