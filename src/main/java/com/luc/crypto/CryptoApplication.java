@@ -3,7 +3,6 @@ package com.luc.crypto;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
 /**
  * Starts our application using spring boot
  */
