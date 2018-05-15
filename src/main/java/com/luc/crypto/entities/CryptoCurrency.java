@@ -8,6 +8,11 @@ import javax.persistence.Id;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
+
+/**
+ * Our entity. Will be persistable thanks to the @Entity and @Id
+ * Uses lombok to generate a builder method and getters/setters/equals/etc...
+ */
 @Builder
 @Data
 @Entity
